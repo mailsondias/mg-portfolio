@@ -1,0 +1,16 @@
+{
+  "Metadata": {
+    "title": "Portfolio",
+    "description": "Portfólio pessoal"
+  },
+  "Home": {
+    "title": "Portfolio"
+  },
+  "Header": {
+    "projects": "Projetos",
+    "about": "Sobre",
+    "contact": "Contato",
+    "themeDark": "Ativar tema escuro",
+    "themeLight": "Ativar tema claro"
+  }
+}
