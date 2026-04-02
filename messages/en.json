@@ -4,8 +4,62 @@
     "description": "Personal portfolio"
   },
   "Home": {
-    "title": "Portfolio"
-  },
+    "headline": "Hey there, I'm Maílson. I develop web, apps & shape digital products...",
+    "about": {
+			"title": "about",
+      "copyright": "Brazil, 2026",
+			"description": "I'm Front End Developer with +19 years of experience for digital agencies, startups and freelancer that has honered my HTML, CSS and JavaScript skills.",
+			"skills": {
+				"button": "skills"
+			},
+			"expertise": {
+				"button": "expertise",
+				"developer": {
+					"title": "Front-end Developer",
+					"description": "Experienced in developing interface and web application. I'm proficient front-end, specialist in bringing the product to life, responsive design, animations and high fidelity to design also know as pixel perfect. Proactive in keeping up with javascript new trends and technologies."
+				},
+				"engineer": {
+					"title": "Software Engineer",
+					"description": "Knowledge about data Structure, data base, design patterns, I work together teammates to think about the best approaches to resolution of problems to deliver a better final product."
+				}
+			},
+			"experience": {
+				"button": "experience",
+				"camara": {
+					"company": "Chamber of Deputies",
+					"description": "I develop, lead and architect the new voting system for the Chamber of Federal Deputies of Brazil for both kind of sessions plenary and committees."
+				},
+				"mercado-bitcoin": {
+					"description": "In my squad I represent the Web part together with iOS, Android and Backends. Together we achieve the tasks proposed for stakeholders like for asset tokenization, new MB client platform, Education Staff pages and connecting services by BFF;"
+				},
+				"cadmus": {
+					"description": "Like Senior Front-end work with React and Vue, I work together with .NET developers, QA, UX, and PO. Together we developed a new product for ballast tracking to credit funds to brazilian financial market."
+				},
+				"atlas": {
+					"description": "Work in a squad with as a Front-end Engineer VueJS in a platform with more than 27 thousand of clients and a half billion monthly hits. Environment remotely with docker, code reviews, CI/CD at github, unit tests with Jest, Vue Test Utils and Storybook building UI components for documentation. Developed in Vue and Nuxt with TypeScript, maintain and improve the product."
+				},
+				"morfeu": {
+					"description": "Specialist to plan, develop better approaches with the client, sharing ideias, develop and support projects from digital web, mobile environments and web applications."
+				},
+				"tabb": {
+					"description": "Especialist and consulted Front-end, I developed JavaScript integrations with Shopify and web site animations."
+				},
+				"digital": {
+					"description": "Created the new web interface for Caixa Seguros whose users access from to all of Brazil, made with: JavaScript, Middleman, HTML, SASS, Gitflow and Scrum. - I specifically read the DOM tags applying them to the javascript array and printed them with a new interface for mobile devices. - Calculations in functions JavaScript to write and show answers to users."
+				},
+				"pepper": {
+					"description": "Front-end Developer Analyst (HTML, CSS, JavaScript, jQuery), Backend (WordPress, PHP and MySQL). Projects maked for many users to all of the country like presidential campaign, safe bank Caixa Seguros, SENAI, etc."
+				},
+				"brclick": {
+					"description": "Known like webmaster, was my first job. Do it my best with Macromedia MX Package, Dreamweaver, Flash, Fireworks, HTML, CSS and Structure PHP."
+				}
+			},
+			"resume": {
+				"button": "Resume.pdf",
+				"url": "https://firebasestorage.googleapis.com/v0/b/react-portoflio.appspot.com/o/resume%2FMailson's%20Resume%20-%20EN.docx.pdf?alt=media&token=4a5bcf82-5b49-4079-add8-b733bea28ab6"
+			}
+		}
+	},
   "Header": {
     "projects": "Projects",
     "about": "About",

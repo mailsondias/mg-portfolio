@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useLayoutEffect, useState } from "react";
 
 export type Theme = "light" | "dark";
 
@@ -26,7 +26,7 @@ export function useThemePreference() {
     setReady(true);
   }, []);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (!ready) return;
     document.documentElement.classList.toggle("dark", theme === "dark");
     localStorage.setItem("theme", theme);

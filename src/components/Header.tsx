@@ -2,6 +2,7 @@
 
 import { MoonIcon, SunIcon } from "@heroicons/react/24/outline";
 import { useLocale, useTranslations } from "next-intl";
+import { flushSync } from "react-dom";
 import { useThemePreference } from "@/hooks/useThemePreference";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
@@ -12,10 +13,24 @@ export function Header() {
   const router = useRouter();
   const pathname = usePathname();
   const { theme, setTheme, ready: themeReady } = useThemePreference();
+  const alternativeLocale = routing.locales.find((code) => code !== locale);
+
+  const handleThemeToggle = () => {
+    const toggle = () =>
+      setTheme((prev) => (prev === "light" ? "dark" : "light"));
+  
+    if (typeof document.startViewTransition === "function") {
+      document.startViewTransition(() => {
+        flushSync(toggle);
+      });
+    } else {
+      toggle();
+    }
+  };
 
   return (
     <header
-      className="grid w-full grid-cols-[1fr_auto_1fr] items-center gap-4 border-b border-zinc-200 px-6 py-4 dark:border-zinc-800"
+      className="grid w-full grid-cols-[1fr_auto_1fr] gap-4 px-6 py-4 max-w-[1600px] mx-auto fixed top-0 left-0 right-0 z-50"
       suppressHydrationWarning
     >
       <div className="justify-self-start" suppressHydrationWarning>
@@ -28,61 +43,54 @@ export function Header() {
       </div>
 
       <div
-        className="flex items-center justify-center gap-3"
+        className="flex items-start gap-2"
         suppressHydrationWarning
       >
         <button
           type="button"
           disabled={!themeReady}
-          onClick={() =>
-            setTheme((prev) => (prev === "light" ? "dark" : "light"))
-          }
-          className="inline-flex size-9 cursor-pointer items-center justify-center rounded-full border border-zinc-200 text-zinc-800 transition-colors hover:bg-zinc-100 disabled:cursor-not-allowed disabled:opacity-50 dark:border-zinc-700 dark:text-zinc-200 dark:hover:bg-zinc-800"
+          onClick={handleThemeToggle}
+          className="inline-flex size-9 cursor-pointer items-center justify-center rounded-full text-zinc-800 transition-colors disabled:cursor-not-allowed dark:border-zinc-700 dark:text-zinc-100"
           aria-label={theme === "light" ? t("themeDark") : t("themeLight")}
         >
           {theme === "light" ? (
-            <MoonIcon className="size-5" aria-hidden />
+            <MoonIcon className="size-5" fill="currentColor" aria-hidden />
           ) : (
-            <SunIcon className="size-5" aria-hidden />
+            <SunIcon className="size-5" fill="currentColor" aria-hidden />
           )}
         </button>
         <div
-          className="flex rounded-full border border-zinc-200 p-0.5 text-xs font-medium dark:border-zinc-700"
+          className="mt-1.5 flex rounded-sm border border-zinc-200 p-0.5 text-xs font-medium dark:border-zinc-400"
           suppressHydrationWarning
         >
-          {routing.locales.map((code) => (
+          {alternativeLocale && (
             <button
-              key={code}
               type="button"
-              onClick={() => router.replace(pathname, { locale: code })}
-              className={`cursor-pointer rounded-full px-3 py-1 transition-colors ${
-                locale === code
-                  ? "bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900"
-                  : "text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
-              }`}
+              onClick={() => router.replace(pathname, { locale: alternativeLocale })}
+              className="cursor-pointer px-2 py-0.5 text-xs font-medium transition-colors text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
             >
-              {code.toUpperCase()}
+              {alternativeLocale.toUpperCase()}
             </button>
-          ))}
+          )}
         </div>
       </div>
 
-      <nav className="justify-self-end flex items-center gap-6 text-sm font-medium text-zinc-700 dark:text-zinc-300">
-        <Link
-          href="#projetos"
-          className="hover:text-zinc-950 dark:hover:text-white"
-        >
-          {t("projects")}
-        </Link>
+      <nav className="justify-self-end flex mt-2 flex-col md:flex-row md:gap-3 w-auto gap-2 items-end text-right text-md font-medium text-zinc-700 dark:text-zinc-300">
         <Link
           href="#sobre"
-          className="hover:text-zinc-950 dark:hover:text-white"
+          className="font-bold lowercase border-b-2 border-[#ddd] pb-1 leading-none hover:border-zinc-900 dark:border-zinc-700 hover:text-zinc-950 dark:hover:border-white dark:hover:text-white"
         >
           {t("about")}
         </Link>
         <Link
+          href="#projetos"
+          className="font-bold lowercase border-b-2 border-[#ddd] pb-1 leading-none hover:border-zinc-900 dark:border-zinc-700 hover:text-zinc-950 dark:hover:border-white dark:hover:text-white"
+        >
+          {t("projects")}
+        </Link>
+        <Link
           href="#contato"
-          className="hover:text-zinc-950 dark:hover:text-white"
+          className="font-bold lowercase border-b-2 border-[#ddd] pb-1 leading-none hover:border-zinc-900 dark:border-zinc-700 hover:text-zinc-950 dark:hover:border-white dark:hover:text-white"
         >
           {t("contact")}
         </Link>

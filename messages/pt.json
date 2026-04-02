@@ -4,7 +4,61 @@
     "description": "Portfólio pessoal"
   },
   "Home": {
-    "title": "Portfolio"
+    "headline": "Olá, sou o Maílson. Eu desenvolvo web, apps & moldo produtos digitais…",
+    "about": {
+			"title": "sobre",
+      "copyright": "Brasil, 2026",
+			"description": "Sou desenvolvedor Front-end com +19 anos de experiência em agências digitais, start-ups e freelancers. Foi como aprimorei minhas habilidades em HTML, CSS e JavaScript.",
+			"skills": {
+				"button": "habilidades"
+			},
+			"expertise": {
+				"button": "especialidade",
+				"developer": {
+					"title": "Desenvolvedor Front-end",
+					"description": "Experiência em desenvolvimento de interfaces e aplicações web. Sou proficiente em front-end, especialista em dar vida ao produto, design responsivo, animações e alta fidelidade ao design também conhecido como pixel perfect. Proativo em acompanhar as novas tendências e tecnologias de javascript."
+				},
+				"engineer": {
+					"title": "Engenheiro de Software",
+					"description": "Conhecimento sobre estrutura de dados, banco de dados, padrões de design, trabalho em conjunto com colegas de equipe para pensar nas melhores abordagens para resolução de problemas e entregar um produto final melhor."
+				}
+			},
+			"experience": {
+				"button": "experiência",
+				"camara": {
+					"company": "Câmara dos Deputados",
+					"description": "Desenvolvo, lidero e arquiteto o novo sistema de votação para a Câmara dos Deputados Federais para ambos os tipos de sessões: plenárias e comissões."
+				},
+				"mercado-bitcoin": {
+					"description": "Em minha squad era responsável pela parte web para executar propostas oferecidas pelos stakeholders onde minhas atribuições foram: nova sessão de Tokenização de Ativos; novas funcionalidades na plataforma do cliente e novas abordagens na intranet do MB e etc."
+				},
+				"cadmus": {
+					"description": "Atuo como Up Sênior Front-end React/Vue, trabalhando paralelamente com programadores .NET, QAs, UX e PO. Juntos desenvolvemos um produto novo para o rastreio de lastros de fundos creditórios para o mercado financeiro nacional."
+				},
+				"atlas": {
+					"description": "Trabalho numa squad como Front-end Engineer VueJS em uma plataforma com mais de 20 milhões de acessos mensais. Ambiente remoto com docker, revisões de código, CI/CD no github, testes de unidade com Jest, Vue Test Utils e construção de Storybook UI componentes para documentação. Desenvolva em Vue e Nuxt com TypeScript, teste, mantenha e melhore o produto."
+				},
+				"morfeu": {
+					"description": "Especialista em planejar, desenvolver melhores abordagens com o cliente, compartilhar ideias, desenvolver e dar suporte a projetos de web digital, ambientes móveis e aplicações web."
+				},
+				"tabb": {
+					"description": "Especialista e consultor de Front-end, desenvolvi integrações JavaScript com Shopify e animações em sites."
+				},
+				"digital": {
+					"description": "Criei a nova interface web da Caixa Seguros cujos usuários acessam de todo o Brasil, feita com: JavaScript, Middleman, HTML, SASS-Compass, Gitflow e Scrum. - Eu li especificamente as tags DOM aplicando-as ao array javascript e imprimi-as com uma nova interface para dispositivos móveis. Foi bonito. - Cálculos em funções JavaScript para escrever e mostrar respostas aos usuários."
+				},
+				"pepper": {
+					"description": "Analista Desenvolvedor Front-end (HTML, CSS, JavaScript, jQuery), Back-end (WordPress, PHP e MySQL). Projetos feitos para milhões de usuários para todo o Brasil como campanha presidencial, políticos, partido, Caixa Seguros, SENAI,  etc."
+				},
+				"brclick": {
+					"description": "Conhecido como webmaster, foi meu primeiro emprego. Macromedia MX Package, Dreamweaver, Flash, Fireworks, HTML, CSS e Estrutura PHP."
+				}
+			},
+			"resume": {
+				"button": "CV.pdf",
+				"url": "https://firebasestorage.googleapis.com/v0/b/react-portoflio.appspot.com/o/resume%2FMailson's%20Resume%20-%20PT.docx.pdf?alt=media&token=49e66f71-f600-4d80-b9e3-414047e6e403"
+			}
+    }
   },
   "Header": {
     "projects": "Projetos",

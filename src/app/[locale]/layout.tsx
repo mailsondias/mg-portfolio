@@ -1,7 +1,7 @@
 import "../globals.css";
 
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inconsolata, Lato } from "next/font/google";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import {
@@ -9,16 +9,21 @@ import {
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
+import { Header } from "@/components/Header";
 import { routing } from "@/i18n/routing";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inconsolata = Inconsolata({
+  variable: "--font-inconsolata",
   subsets: ["latin"],
+  weight: ["400", "700"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const lato = Lato({
+  variable: "--font-lato",
   subsets: ["latin"],
+  weight: ["400", "700"],
+  display: "swap",
 });
 
 type Props = {
@@ -52,11 +57,12 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html
       lang={locale}
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${inconsolata.variable} ${lato.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col" suppressHydrationWarning>
+      <body className="flex min-h-full flex-col font-sans relative" suppressHydrationWarning>
         <NextIntlClientProvider locale={locale} messages={messages}>
+          <Header />
           {children}
         </NextIntlClientProvider>
       </body>
