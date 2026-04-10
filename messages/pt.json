@@ -55,10 +55,14 @@
 				}
 			},
 			"resume": {
-				"button": "CV.pdf",
+				"button": "Currículo.pdf",
 				"url": "https://firebasestorage.googleapis.com/v0/b/react-portoflio.appspot.com/o/resume%2FMailson's%20Resume%20-%20PT.docx.pdf?alt=media&token=49e66f71-f600-4d80-b9e3-414047e6e403"
 			}
-    }
+    },
+		"projects": {
+			"title": "projetos",
+			"tagline": "Vamos dar uma olhada.."
+		}
   },
   "Header": {
     "projects": "Projetos",
@@ -66,5 +70,9 @@
     "contact": "Contato",
     "themeDark": "Ativar tema escuro",
     "themeLight": "Ativar tema claro"
-  }
+  },
+	"Footer": {
+		"offer": "Tem um projeto? adoraria ajudar",
+		"social": "Entre em contato"
+	}
 }

@@ -58,6 +58,10 @@
 				"button": "Resume.pdf",
 				"url": "https://firebasestorage.googleapis.com/v0/b/react-portoflio.appspot.com/o/resume%2FMailson's%20Resume%20-%20EN.docx.pdf?alt=media&token=4a5bcf82-5b49-4079-add8-b733bea28ab6"
 			}
+		},
+		"projects": {
+			"title": "projects",
+			"tagline": "Let's take a look.."
 		}
 	},
   "Header": {
@@ -66,5 +70,9 @@
     "contact": "Contact",
     "themeDark": "Switch to dark theme",
     "themeLight": "Switch to light theme"
-  }
+  },
+	"Footer": {
+		"offer": "Have a project? I'd love to help.",
+		"social": "Let's connect"
+	}
 }

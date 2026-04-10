@@ -9,8 +9,10 @@ import {
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
+import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { routing } from "@/i18n/routing";
+import { ProjectsProvider } from "@/store/projects";
 
 const inconsolata = Inconsolata({
   variable: "--font-inconsolata",
@@ -60,10 +62,14 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${inconsolata.variable} ${lato.variable} h-full antialiased`}
       suppressHydrationWarning
     >
-      <body className="flex min-h-full flex-col font-sans relative" suppressHydrationWarning>
+      <body
+        className="flex min-h-full flex-col font-sans relative"
+        suppressHydrationWarning
+      >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
-          {children}
+          <ProjectsProvider>{children}</ProjectsProvider>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
