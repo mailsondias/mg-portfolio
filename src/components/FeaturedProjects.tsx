@@ -56,14 +56,14 @@ export default function FeaturedProjects() {
                   intersect
                   className="overflow-hidden w-full h-[70vw] md:h-full md:w-2/3 md:justify-end border border-slate-300 dark:border-slate-600"
                 >
-                  <Link href={`/projects/${project.slug}`}>
-                    <div className="w-full transition-all duration-500 ease-in-out transform">
+                  <Link href={`/projects/${project.slug}`} className="project-thumb-wrap">
+                    <div className="w-full transition-transform duration-500 ease-in-out transform group">
                       <Image
                         src={project.images.thumbnail}
                         alt={project.title}
                         width={900}
                         height={600}
-                        className="w-full transition-all duration-500 ease-in-out transform"
+                        className="w-full"
                         aria-label="Project thumbnail"
                         title={project.title}
                       />

@@ -2,6 +2,17 @@
 
 import { useEffect, useRef, useState } from "react";
 
+/** Narrow union avoids `keyof JSX.IntrinsicElements` resolving to SVG tags (e.g. `symbol`) and breaking ref types. */
+type FadeInTag =
+  | "div"
+  | "section"
+  | "article"
+  | "aside"
+  | "span"
+  | "p"
+  | "h5"
+  | "li";
+
 type Props = {
   children: React.ReactNode;
   delay?: number;
@@ -10,7 +21,7 @@ type Props = {
   /** Trigger on scroll instead of a fixed timer */
   intersect?: boolean;
   /** HTML tag to render (default: "div") */
-  as?: keyof React.JSX.IntrinsicElements;
+  as?: FadeInTag;
 };
 
 export default function FadeIn({
@@ -22,7 +33,7 @@ export default function FadeIn({
   as: Tag = "div",
 }: Props) {
   const [visible, setVisible] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLElement | null>(null);
   const timerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
@@ -59,7 +70,8 @@ export default function FadeIn({
 
   return (
     <Tag
-      ref={ref as React.RefObject<HTMLElement & HTMLDivElement>}
+      // Polymorphic `as` + IntersectionObserver ref: single ref type for all tags
+      ref={ref as never}
       className={className}
       suppressHydrationWarning={suppressHydrationWarning}
       style={{

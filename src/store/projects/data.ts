@@ -119,8 +119,8 @@ export const projects: Project[] = [
       project:
         "/images/projects/fatal-model/project.png",
     },
-    stack: ["Vue.JS", "Nuxt.JS", "TypeScript", "Jest", "Storybook"],
-    featured: true,
+    stack: ["Vue.JS", "Nuxt.JS", "TypeScript", "Tailwind", "Jest", "Storybook"],
+    featured: false,
     links: [
       {
         url: "https://fatalmodel.com.br/",
@@ -176,7 +176,7 @@ export const projects: Project[] = [
         "/images/projects/carro-certo/project.png",
     },
     stack: ["Vue.JS", "Vuetify", "Firebase"],
-    featured: true,
+    featured: false,
     links: [
       {
         url: "https://app-carro-certo.web.app/",
@@ -330,30 +330,192 @@ export const projects: Project[] = [
       liked: 0,
     },
   },
-  // {
-  // 	id: 1252,
-  // 	slug: "jeep-via-motors",
-  // 	title: "Jeep Via Motors",
-  // 	description: "",
-  // 	category: {
-  // 		name: "Website",
-  // 		slug: "website",
-  // 	},
-  // 	images: {
-  // 		thumbnail:
-  // 			"https://firebasestorage.googleapis.com/v0/b/react-portoflio.appspot.com/o/project%2Fjeep%2Fjeep.png?alt=media&token=4579bc9d-4cd6-4f72-930f-851ee6734d46",
-  // 		project: "",
-  // 	},
-  // 	stack: ["Gulp", "SASS", "jQuery", "HTML"],
-  // 	featured: false,
-  // 	links: [
-  // 		{
-  // 			url: "https://betainterativa.com/jobs/grazzis/",
-  // 			name: "open project",
-  // 		},
-  // 	],
-  // 	reactions: {
-  // 		liked: 0,
-  // 	},
-  // },
+  {
+  	id: 1252,
+  	slug: "jeep-via-motors",
+  	title: "Jeep Via Motors",
+  	description: "",
+  	category: {
+  		name: "Website",
+  		slug: "website",
+  	},
+  	images: {
+  		thumbnail:
+  			"https://firebasestorage.googleapis.com/v0/b/react-portoflio.appspot.com/o/project%2Fjeep%2Fjeep.png?alt=media&token=4579bc9d-4cd6-4f72-930f-851ee6734d46",
+  		project: "",
+  	},
+  	stack: ["Gulp", "SASS", "jQuery", "HTML"],
+  	featured: false,
+  	links: [
+  		{
+  			url: "https://betainterativa.com/jobs/grazzis/",
+  			name: "open project",
+  		},
+  	],
+  	reactions: {
+  		liked: 0,
+  	},
+  },
+  {
+    id: 12509,
+    slug: "h2bet",
+    title: "H2Bet",
+    description: "",
+    category: {
+      name: "Web Application",
+      slug: "web-application",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/h2bet/thumb.png",
+      project:
+        "/images/projects/h2bet/project.png",
+    },
+    stack: ["React.JS", "Next.JS", "Tailwind"],
+    featured: true,
+    links: [
+      {
+        url: "https://www.h2.bet.br/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 87645,
+    slug: "Movooh App",
+    title: "Movooh App",
+    description: "",
+    category: {
+      name: "Web Application",
+      slug: "web-application",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/movooh/thumb.png",
+      project:
+        "/images/projects/movooh/project.png",
+    },
+    stack: ["React.JS", "Next.JS", "Tailwind"],
+    featured: true,
+    links: [
+      {
+        url: "#this",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 349028,
+    slug: "Gama",
+    title: "gama",
+    description: "",
+    category: {
+      name: "Website",
+      slug: "website",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/gama/thumb.png",
+      project:
+        "/images/projects/gama/project.png",
+    },
+    stack: ["HTML", "CSS", "JavaScript", "Shopify"],
+    featured: false,
+    links: [
+      {
+        url: "https://www.h2.bet.br/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 4876,
+    slug: "Gama Oficial",
+    title: "gama",
+    description: "",
+    category: {
+      name: "Website",
+      slug: "website",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/gama/thumb.png",
+      project:
+        "/images/projects/gama/project.png",
+    },
+    stack: ["HTML", "CSS", "JavaScript", "Shopify"],
+    featured: false,
+    links: [
+      {
+        url: "https://www.h2.bet.br/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 8923746,
+    slug: "Observatório de Família e Juventude",
+    title: "gdf-observatorio-familia-juventude",
+    description: "",
+    category: {
+      name: "Website",
+      slug: "website",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/gdf/observatorio-familia-juventude/thumb.png",
+      project:
+        "/images/projects/gdf/observatorio-familia-juventude/project.png",
+    },
+    stack: ["HTML", "CSS", "JavaScript"],
+    featured: false,
+    links: [
+      {
+        url: "https://gdf-observatorio-familia-juventude.vercel.app/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 344421,
+    slug: "GDF foi lá e fez",
+    title: "gdf-faz",
+    description: "",
+    category: {
+      name: "Website",
+      slug: "website",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/gdf/faz/thumb.png",
+      project:
+        "/images/projects/gdf/faz/project.png",
+    },
+    stack: ["HTML", "CSS", "JavaScript"],
+    featured: false,
+    links: [
+      {
+        url: "https://gdf-faz.vercel.app/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
 ];
