@@ -20,7 +20,7 @@ export function Footer() {
                 {t("social")}
               </h1>
             </FadeIn>
-            <FadeIn intersect delay={150} className="md:flex md:flex-row pt-4 md:pt-10 md:pl-10 gap-4">
+            <FadeIn intersect delay={150} className="flex pt-4 md:pt-10 md:pl-10 gap-8 md:gap-4">
               <Link
                 href="mailto:mailsondg@gmail.com"
                 target="_blank"
