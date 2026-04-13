@@ -38,7 +38,7 @@ export function ExperienceList({ experiences, label }: Props) {
           <FadeIn key={`${runKey}-${index}`} delay={index * 80} as="li">
             <div
               className={cn(
-                "border-2 border-slate-300 dark:border-slate-600 -ml-1 p-4 dark:text-[#f1f1f1]",
+                "border-2 border-slate-300 dark:border-slate-600 -ml-1 p-4 dark:text-[#f1f1f1] last:mb-8",
                 index === 0 && "dark:bg-slate-700",
               )}
             >

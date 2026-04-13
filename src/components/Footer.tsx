@@ -39,7 +39,7 @@ export function Footer() {
                 </svg>
               </Link>
               <Link
-                href="https://www.linkedin.com/in/mailsondias/"
+                href="https://www.linkedin.com/in/mailsondg/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-start rounded-full text-zinc-700 transition-colors hover:text-zinc-900 dark:text-zinc-300 dark:hover:text-zinc-50 gap-2"

@@ -73,7 +73,7 @@ export function Header() {
         </div>
       </FadeIn>
 
-      <nav className="justify-self-end flex mt-2 flex-col md:flex-row md:gap-3 w-auto gap-2 items-end text-right text-lg font-medium">
+      <nav className="justify-self-end flex flex-col md:flex-row md:gap-3 w-auto gap-2 items-end text-right text-lg font-medium">
         <FadeIn delay={450}>
           <Link
             href="#sobre"
