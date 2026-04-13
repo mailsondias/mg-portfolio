@@ -9,6 +9,7 @@ import {
   getTranslations,
   setRequestLocale,
 } from "next-intl/server";
+import FollowCursor from "@/components/FollowCursor";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { routing } from "@/i18n/routing";
@@ -70,6 +71,7 @@ export default async function LocaleLayout({ children, params }: Props) {
           <Header />
           <ProjectsProvider>{children}</ProjectsProvider>
           <Footer />
+          <FollowCursor color="#323232a6" />
         </NextIntlClientProvider>
       </body>
     </html>

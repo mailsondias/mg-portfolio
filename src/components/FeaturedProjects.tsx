@@ -45,7 +45,7 @@ export default function FeaturedProjects() {
                         intersect
                         delay={idx * 50}
                         as="h5"
-                        className="text-md font-text mb-2 mr-1 py-1 px-3 border-2 dark:border-slate-600 inline-block"
+                        className="text-md font-text mb-2 mr-1 py-1 px-3 border-2 border-slate-300 dark:border-slate-600 inline-block"
                       >
                         {value}
                       </FadeIn>
@@ -54,7 +54,7 @@ export default function FeaturedProjects() {
                 </div>
                 <FadeIn
                   intersect
-                  className="overflow-hidden w-full h-[70vw] md:h-full md:w-2/3 md:justify-end"
+                  className="overflow-hidden w-full h-[70vw] md:h-full md:w-2/3 md:justify-end border border-slate-300 dark:border-slate-600"
                 >
                   <Link href={`/projects/${project.slug}`}>
                     <div className="w-full transition-all duration-500 ease-in-out transform">
@@ -77,7 +77,7 @@ export default function FeaturedProjects() {
         <div className="py-10 text-center text-xl dark:text-slate-600">
           {t("more")}{" "}
           <Link href="/projects" className="ml-2 ">
-            <span className="text-neutral-100 border-b-2 border-slate-600 hover:border-neutral-100 dark:hover:border-neutral-100">{t("title")}</span>
+            <span className="text-zinc-900 dark:text-neutral-100 border-b-2 border-slate-300 dark:border-slate-600 hover:border-neutral-100 dark:hover:border-neutral-100 font-bold">{t("title")}</span>
           </Link>
         </div>
     </section>

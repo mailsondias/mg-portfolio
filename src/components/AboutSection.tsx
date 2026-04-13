@@ -230,7 +230,7 @@ export function AboutSection() {
                                 idx === 3)) ||
                               (index === 1 && (idx === 0 || idx === 1)) ||
                               (index === 2 && (idx === 0 || idx === 1))) &&
-                              "dark:bg-slate-700",
+                              "bg-slate-200 dark:bg-slate-700",
                           )}
                         >
                           {skillItem}
