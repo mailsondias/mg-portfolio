@@ -15,7 +15,7 @@ export function HeroSection() {
   return (
     <ImageTrail
       images={featured.map((project) => project.images.thumbnail)}
-      className="flex flex-row items-end justify-between px-6 py-2 h-[98dvh] relative"
+      className="flex flex-row items-end justify-between px-6 py-2 h-[98dvh] relative w-full"
     >
       <section
         className="flex flex-row items-end justify-between px-6 py-2 h-[98dvh] relative"
@@ -32,12 +32,11 @@ export function HeroSection() {
             delay={t("headline").length * 40 + 200}
             className="mt-10 flex text-zinc-500 dark:text-slate-600"
           >
-            <Link href="#sobre">
+            <Link href="#about">
               <ArrowLongDownIcon className="size-8 sm:size-16" aria-hidden />
             </Link>
           </FadeIn>
         </div>
-
         <FadeIn
           delay={t("headline").length * 40 + 600}
           className="flex flex-col gap-4"

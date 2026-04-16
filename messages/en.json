@@ -86,30 +86,39 @@
 	},
 	"project": {
 		"eleicoes-metropoles": {
+			"title": "Eleições Municipais - Metrópoles",
 			"description": "Aplicação desenvolvida para o monitoramento da apuração em tempo real das eleições municipais 2024. O aplicativo faz o intervalo em segundos da apuração via REST API buscando atualizações do governo federal, Tribunal Superior Eleitoral do Brasil. Há renderização via SSR e a hidratação dos dados via cliente."
 		},
 		"login-logistica": {
+			"title": "Log-in Logística",
 			"description": "SPA desenvolvida para viabilizar a troca de documentos entre a Log-in e seus fornecedores com o controle de navios, atracação, containers, etc; Projeto em feito em Next com TypeScript e Node no lado servidor com NestJS. Fiz da prototipação junto ao cliente ao desenvolvimento, onde pude aplicar melhores práticas de UX UI e caminhos."
 		},
 		"mercado-bitcoin": {
+			"title": "Mercado Bitcoin",
 			"description": "Em minha squad era responsável pela parte web para executar propostas oferecidas pelos stakeholders onde minhas atribuições foram: nova sessão de Tokenização de Ativos; novas funcionalidades na plataforma do cliente e novas abordagens na intranet do MB"
 		},
 		"instrinsiq": {
+			"title": "Instrinsiq",
 			"description": "O aplicativo Instrinsiq é um novo produto b2b que traz soluções para fundos de investimentos para o sistema financeiro brasileiro, fornece controle de verificação de lastros e monitoramento de faturas para registradores nacionais da bolsa de valores."
 		},
 		"fatal-model": {
+			"title": "Fatal Model",
 			"description": "Fatal Model é o maior produto do seu nicho do Brasil tendo meio bilhão de acessos por mês. Uma empresa muito educada, que respeita as diferenças e abre oportunidades para todos. Este produto fornece anúncios que ajudam os anunciantes a se conectarem com mais clientes seguindo as leis brasileiras."
 		},
 		"carro-certo": {
+			"title": "Carro Certo",
 			"description": "O aplicativo Carro Certo conecta o estoque de diversas lojas de usados entre si, permitindo ao empresário atender seus clientes mesmo que não tenha em seu estoque o veículo que procura."
 		},
 		"trendt": {
+			"title": "Trendt",
 			"description": "E-commerce de um novo produto personalizado de roupas feito na plataforma Shopify."
 		},
 		"agencia-brasilia": {
+			"title": "Agência Brasilia",
 			"description": "Portal Oficial de Notícias do Governo do Distrito Federal. Por meio do portal, o governo divulga notícias, comunicados, dados importantes, disponibiliza a agenda pública do Governador e outras informações relevantes que a população pode acessar pelo site ou por aplicativos nativos para iOS e Android."
 		},
 		"aifs": {
+			"title": "Australian Institute of Families Study",
 			"description": "Portal Oficial do Governo da Austrália. Fornece pesquisas para informar políticas governamentais e serviços familiares. O governo compartilha suas novidades em uma postagem de blog com diversos conteúdos específicos, ajudando e cuidando de seu povo."
 		}
 	}

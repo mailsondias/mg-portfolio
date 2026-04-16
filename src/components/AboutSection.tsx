@@ -171,7 +171,7 @@ export function AboutSection() {
 
   return (
     <section
-      id="sobre"
+      id="about"
       className="px-6 py-6 md:py-12 md:pt-24"
       aria-labelledby="about-heading"
     >

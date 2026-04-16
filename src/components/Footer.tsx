@@ -7,7 +7,7 @@ export function Footer() {
   const t = useTranslations("Footer");
 
   return (
-    <footer className="max-w-[1600px] mx-auto w-full">
+    <footer id="contact" className="max-w-[1600px] mx-auto w-full">
       <FadeIn intersect className="my-10 pl-10">
         <span className="w-full h-0.5 bg-black dark:bg-slate-600 block"></span>
       </FadeIn>
@@ -100,7 +100,7 @@ export function Footer() {
 
       <FadeIn intersect className="float-right">
         <a href="#top">
-          <ArrowLongUpIcon className="size-8 sm:size-10 dark:text-zinc-300" />
+          <ArrowLongUpIcon className="size-8 sm:size-10 text-zinc-500 dark:text-slate-600" />
         </a>
       </FadeIn>
     </footer>

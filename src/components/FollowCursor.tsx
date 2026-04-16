@@ -9,7 +9,8 @@ interface FollowCursorProps {
 }
 
 const FollowCursor: React.FC<FollowCursorProps> = ({
-  color = "#323232a6",
+  // color = "#323232a6",
+  color = "#394048a6",
   zIndex = 1000,
 }) => {
   useEffect(() => {

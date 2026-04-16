@@ -2,6 +2,43 @@ import type { Project } from "./types";
 
 export const projects: Project[] = [
   {
+    id: 2938764,
+    slug: "camara-dos-deputados",
+    title: "Câmara dos Deputados",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    category: {
+      name: "Web Application",
+      slug: "web-application",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/metropoles/thumb.png",
+      project:
+        "/images/projects/metropoles/project.png",
+    },
+    stack: ["React.JS", "Next.JS", "Tailwind"],
+    featured: true,
+    links: [],
+    related: [
+      {
+        slug: "eleicoes-metropoles",
+        title: "Eleições Municipais - Metrópoles",
+      },
+      {
+        slug: "eleicoes-metropoles",
+        title: "Eleições Municipais - Metrópoles",
+      },
+      {
+        slug: "eleicoes-metropoles",
+        title: "Eleições Municipais - Metrópoles",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
     id: 3402,
     slug: "eleicoes-metropoles",
     title: "Eleições Municipais - Metrópoles",
@@ -23,6 +60,20 @@ export const projects: Project[] = [
       {
         url: "https://eleicoes.metropoles.com/2024/resultado-das-eleicoes",
         name: "open project",
+      },
+    ],
+    related: [
+      {
+        slug: "login-logistica",
+        title: "Log-in Logística",
+      },
+      {
+        slug: "mercado-bitcoin",
+        title: "Mercado Bitcoin",
+      },
+      {
+        slug: "singulare",
+        title: "Singulare",
       },
     ],
     reactions: {
@@ -104,7 +155,7 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 1234,
+    id: 12309328744,
     slug: "fatal-model",
     title: "Fatal Model",
     description:

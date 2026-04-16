@@ -13,6 +13,11 @@ export type ProjectImages = {
   project: string;
 };
 
+export type ProjectRelated = {
+  slug: string;
+  title: string;
+}[];
+
 export type Project = {
   id: number;
   slug: string;
@@ -26,4 +31,5 @@ export type Project = {
   reactions: {
     liked: number;
   };
+  related?: ProjectRelated;
 };

@@ -11,7 +11,7 @@ export default function FeaturedProjects() {
   const { featured } = useProjects();
 
   return (
-    <section id="projetos" className="px-6 py-16 md:py-24">
+    <section id="projects" className="px-6 py-16 md:py-24">
         <FadeIn intersect>
           <h3 className="text-right md:text-left lowercase font-bold text-2xl font-mono leading-tight tracking-tight text-zinc-900 dark:text-zinc-100">
             {t("title")}
