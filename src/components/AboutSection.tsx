@@ -175,7 +175,7 @@ export function AboutSection() {
       className="px-6 py-6 md:py-12 md:pt-24"
       aria-labelledby="about-heading"
     >
-      <div className="mx-auto max-w-[1600px] flex flex-col md:flex-row items-start justify-between">
+      <div className="mx-auto max-w-[1600px] flex flex-col lg:flex-row items-start justify-between">
         <div className="flex flex-col gap-4 w-full">
           <FadeIn intersect>
             <h3
@@ -186,7 +186,7 @@ export function AboutSection() {
             </h3>
           </FadeIn>
         </div>
-        <div className="flex flex-col items-start max-w-full md:max-w-1/2 md:pr-32 gap-2">
+        <div className="flex flex-col items-start max-w-full lg:max-w-1/2 lg:pr-32 gap-2">
           <FadeIn intersect className="w-full">
             <small className="uppercase font-mono text-xs text-zinc-500 dark:text-zinc-400 mt-4 mb-4 text-right w-full">
               {t("about.copyright")}

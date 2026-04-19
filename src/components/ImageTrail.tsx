@@ -108,13 +108,13 @@ export default function ImageTrail({
         className="pointer-events-none absolute inset-0"
         style={{ zIndex: 1 }}
       >
-        {images.map((src, i) => (
-          <img
+        {images.map((src, index) => (
+          <Image
+            key={`image-trail-${index}`}
             width={220}
             height={140}
-            key={src}
             ref={(el) => {
-              if (el) cacheImages.current[i] = el;
+              if (el) cacheImages.current[index] = el;
             }}
             src={src}
             alt=""

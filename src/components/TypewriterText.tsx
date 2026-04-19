@@ -39,3 +39,4 @@ export default function TypewriterText({ text, speed = 60, className }: Props) {
     </span>
   );
 }
+

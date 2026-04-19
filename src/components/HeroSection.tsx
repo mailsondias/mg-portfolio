@@ -15,13 +15,13 @@ export function HeroSection() {
   return (
     <ImageTrail
       images={featured.map((project) => project.images.thumbnail)}
-      className="flex flex-row items-end justify-between px-6 py-2 h-[98dvh] relative w-full"
+      className="flex flex-row items-end justify-between px-6 py-2 h-[88dvh] relative w-screen"
     >
       <section
-        className="flex flex-row items-end justify-between px-6 py-2 h-[98dvh] relative"
+        className="flex flex-row items-end justify-between px-6 py-2 h-[88dvh] relative w-screen"
         aria-labelledby="hero-heading"
       >
-        <div className="flex flex-col justify-center h-full w-4/3">
+        <div className="flex flex-col justify-center h-full w-4/3 max-w-[1600px] mx-auto relative">
           <h1
             id="hero-heading"
             className="text-left text-[9vw] font-mono leading-tight tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-[8vw] lg:pr-[10vw] lg:text-[6vw] xl:text-8xl xl:pr-7xl"

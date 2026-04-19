@@ -54,7 +54,7 @@ export default function FeaturedProjects() {
                 </div>
                 <FadeIn
                   intersect
-                  className="overflow-hidden w-full h-[70vw] md:h-full md:w-2/3 md:justify-end border border-slate-300 dark:border-slate-600"
+                  className="overflow-hidden w-full h-[70vw] md:h-full md:w-2/3 md:justify-end"
                 >
                   <Link href={`/projects/${project.slug}`} className="project-thumb-wrap">
                     <div className="w-full transition-transform duration-500 ease-in-out transform group">
@@ -63,8 +63,8 @@ export default function FeaturedProjects() {
                         alt={project.title}
                         width={900}
                         height={600}
-                        className="w-full"
-                        aria-label="Project thumbnail"
+                        className="w-full border border-slate-300 dark:border-slate-600"
+                        aria-label="Project thumbnail "
                         title={project.title}
                       />
                     </div>
