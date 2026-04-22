@@ -4,7 +4,7 @@ export const projects: Project[] = [
   {
     id: 2938764,
     slug: "camara-dos-deputados",
-    title: "Câmara dos Deputados",
+    title: "Câmara dos Deputados - SEV",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
     category: {
@@ -13,9 +13,9 @@ export const projects: Project[] = [
     },
     images: {
       thumbnail:
-        "/images/projects/metropoles/thumb.png",
+        "/images/projects/camara/thumb.png",
       project:
-        "/images/projects/metropoles/project.png",
+        "/images/projects/camara/project.png",
     },
     stack: ["React.JS", "Next.JS", "Tailwind"],
     featured: true,
@@ -246,60 +246,60 @@ export const projects: Project[] = [
       liked: 0,
     },
   },
-  {
-    id: 1237,
-    slug: "trendt",
-    title: "Trendt",
-    description:
-      "E-commerce for a new custom product clothers made in Shopify plataform.",
-    category: {
-      name: "Website",
-      slug: "website",
-    },
-    images: {
-      thumbnail:
-        "/images/projects/trendt/thumb.png",
-      project:
-        "/images/projects/trendt/project.png",
-    },
-    stack: ["Gulp", "SASS", "jQuery", "HTML", "Shopify"],
-    featured: false,
-    links: [
-      {
-        url: "https://www.trendt.com.br/",
-        name: "open project",
-      },
-    ],
-    reactions: {
-      liked: 0,
-    },
-  },
-  {
-    id: 1241,
-    slug: "grazzis-green-goodies",
-    title: "Grazzis Green Goodies",
-    category: {
-      name: "Website",
-      slug: "website",
-    },
-    images: {
-      thumbnail:
-        "/images/projects/grazzis/thumb.png",
-      project:
-        "/images/projects/grazzis/project.png",
-    },
-    stack: ["Gulp", "SASS", "jQuery", "HTML", "WordPress", "PHP"],
-    featured: false,
-    links: [
-      {
-        url: "https://betainterativa.com/jobs/grazzis/",
-        name: "open project",
-      },
-    ],
-    reactions: {
-      liked: 0,
-    },
-  },
+  // {
+  //   id: 1237,
+  //   slug: "trendt",
+  //   title: "Trendt",
+  //   description:
+  //     "E-commerce for a new custom product clothers made in Shopify plataform.",
+  //   category: {
+  //     name: "Website",
+  //     slug: "website",
+  //   },
+  //   images: {
+  //     thumbnail:
+  //       "/images/projects/trendt/thumb.png",
+  //     project:
+  //       "/images/projects/trendt/project.png",
+  //   },
+  //   stack: ["Gulp", "SASS", "jQuery", "HTML", "Shopify"],
+  //   featured: false,
+  //   links: [
+  //     {
+  //       url: "https://www.trendt.com.br/",
+  //       name: "open project",
+  //     },
+  //   ],
+  //   reactions: {
+  //     liked: 0,
+  //   },
+  // },
+  // {
+  //   id: 1241,
+  //   slug: "grazzis-green-goodies",
+  //   title: "Grazzis Green Goodies",
+  //   category: {
+  //     name: "Website",
+  //     slug: "website",
+  //   },
+  //   images: {
+  //     thumbnail:
+  //       "/images/projects/grazzis/thumb.png",
+  //     project:
+  //       "/images/projects/grazzis/project.png",
+  //   },
+  //   stack: ["Gulp", "SASS", "jQuery", "HTML", "WordPress", "PHP"],
+  //   featured: false,
+  //   links: [
+  //     {
+  //       url: "https://betainterativa.com/jobs/grazzis/",
+  //       name: "open project",
+  //     },
+  //   ],
+  //   reactions: {
+  //     liked: 0,
+  //   },
+  // },
   {
     id: 1239,
     slug: "agencia-brasilia",
@@ -361,7 +361,7 @@ export const projects: Project[] = [
   },
   {
     id: 1242,
-    slug: "oma-japanese-food",
+    slug: "oma",
     title: "Oma Japanese Food",
     description: "",
     category: {
@@ -383,7 +383,7 @@ export const projects: Project[] = [
   },
   {
   	id: 1252,
-  	slug: "jeep-via-motors",
+  	slug: "jeep",
   	title: "Jeep Via Motors",
   	description: "",
   	category: {
@@ -463,8 +463,8 @@ export const projects: Project[] = [
   },
   {
     id: 349028,
-    slug: "Gama",
-    title: "gama",
+    slug: "caixa",
+    title: "Caixa Seguradora",
     description: "",
     category: {
       name: "Website",
@@ -472,15 +472,15 @@ export const projects: Project[] = [
     },
     images: {
       thumbnail:
-        "/images/projects/gama/thumb.png",
+        "/images/projects/caixa/thumb.png",
       project:
-        "/images/projects/gama/project.png",
+        "/images/projects/caixa/project.png",
     },
-    stack: ["HTML", "CSS", "JavaScript", "Shopify"],
+    stack: ["HTML", "CSS", "JavaScript"],
     featured: false,
     links: [
       {
-        url: "https://www.h2.bet.br/",
+        url: "https://www.caixaseguradora.com.br/",
         name: "open project",
       },
     ],
@@ -490,8 +490,8 @@ export const projects: Project[] = [
   },
   {
     id: 4876,
-    slug: "Gama Oficial",
-    title: "gama",
+    slug: "gama",
+    title: "Gama Oficial",
     description: "",
     category: {
       name: "Website",
@@ -507,7 +507,7 @@ export const projects: Project[] = [
     featured: false,
     links: [
       {
-        url: "https://www.h2.bet.br/",
+        url: "https://gamaoficial.vercel.app/",
         name: "open project",
       },
     ],
@@ -517,8 +517,8 @@ export const projects: Project[] = [
   },
   {
     id: 8923746,
-    slug: "Observatório de Família e Juventude",
-    title: "gdf-observatorio-familia-juventude",
+    slug: "gdf-obs",
+    title: "Observatório da Família e Juventude",
     description: "",
     category: {
       name: "Website",
@@ -562,6 +562,33 @@ export const projects: Project[] = [
     links: [
       {
         url: "https://gdf-faz.vercel.app/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 344422,
+    slug: "4u-player",
+    title: "4U Player",
+    description: "",
+    category: {
+      name: "Web Application",
+      slug: "web-application",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/4u-player/thumb.png",
+      project:
+        "/images/projects/4u-player/project.png",
+    },
+    stack: ["React.JS", "Next.JS", "Tailwind"],
+    featured: false,
+    links: [
+      {
+        url: "https://www.4uplayer.com.br/",
         name: "open project",
       },
     ],

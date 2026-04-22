@@ -98,10 +98,10 @@ export function Footer() {
         </div>
       </section>
 
-      <FadeIn intersect className="float-right">
-        <a href="#top">
-          <ArrowLongUpIcon className="size-8 sm:size-10 text-zinc-500 dark:text-slate-600" />
-        </a>
+      <FadeIn intersect className="float-right dark:text-slate-600 border-2 border-zinc-500">
+        <Link href="#top">
+          <ArrowLongUpIcon className="size-8 sm:size-10 text-zinc-500 border-2 border-zinc-500 dark:text-slate-600" />
+        </Link>
       </FadeIn>
     </footer>
   );
