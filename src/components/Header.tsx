@@ -84,7 +84,7 @@ export function Header() {
         </FadeIn>
         <FadeIn delay={600}>
           <Link
-            href="#projects"
+            href="/projects"
             className="font-bold lowercase border-b-2 border-[#ddd] pb-1 leading-none hover:border-zinc-900 dark:border-slate-600 hover:text-zinc-950 dark:hover:border-white dark:hover:text-white bg-white dark:bg-zinc-900"
           >
             {t("projects")}

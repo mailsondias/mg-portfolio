@@ -98,7 +98,12 @@ export const projects: Project[] = [
     },
     stack: ["React.JS", "Next.JS", "TypeScript", "Styled-Component", "Tailwind"],
     featured: true,
-    links: [],
+    links: [
+      {
+        url: "https://www.loginlogistica.com.br/",
+        name: "open project",
+      }
+    ],
     reactions: {
       liked: 0,
     },
@@ -246,34 +251,34 @@ export const projects: Project[] = [
       liked: 0,
     },
   },
-  // {
-  //   id: 1237,
-  //   slug: "trendt",
-  //   title: "Trendt",
-  //   description:
-  //     "E-commerce for a new custom product clothers made in Shopify plataform.",
-  //   category: {
-  //     name: "Website",
-  //     slug: "website",
-  //   },
-  //   images: {
-  //     thumbnail:
-  //       "/images/projects/trendt/thumb.png",
-  //     project:
-  //       "/images/projects/trendt/project.png",
-  //   },
-  //   stack: ["Gulp", "SASS", "jQuery", "HTML", "Shopify"],
-  //   featured: false,
-  //   links: [
-  //     {
-  //       url: "https://www.trendt.com.br/",
-  //       name: "open project",
-  //     },
-  //   ],
-  //   reactions: {
-  //     liked: 0,
-  //   },
-  // },
+  {
+    id: 1237,
+    slug: "trendt",
+    title: "Trendt",
+    description:
+      "E-commerce for a new custom product clothers made in Shopify plataform.",
+    category: {
+      name: "Shopify",
+      slug: "shopify",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/trendt/thumb.png",
+      project:
+        "/images/projects/trendt/project.png",
+    },
+    stack: ["Gulp", "SASS", "jQuery", "HTML", "Shopify"],
+    featured: false,
+    links: [
+      {
+        url: "https://www.trendt.com.br/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
   // {
   //   id: 1241,
   //   slug: "grazzis-green-goodies",
@@ -343,7 +348,7 @@ export const projects: Project[] = [
     },
     images: {
       thumbnail:
-        "/images/projects/kipling/thumb.png",
+        "/images/projects/kipling/thumb.jpg",
       project:
         "/images/projects/kipling/project.png",
     },
@@ -399,7 +404,7 @@ export const projects: Project[] = [
   	featured: false,
   	links: [
   		{
-  			url: "https://betainterativa.com/jobs/grazzis/",
+  			url: "http://jeepviamotors.com.br/",
   			name: "open project",
   		},
   	],
@@ -410,7 +415,7 @@ export const projects: Project[] = [
   {
     id: 12509,
     slug: "h2bet",
-    title: "H2Bet",
+    title: "H2bet",
     description: "",
     category: {
       name: "Web Application",
@@ -494,8 +499,8 @@ export const projects: Project[] = [
     title: "Gama Oficial",
     description: "",
     category: {
-      name: "Website",
-      slug: "website",
+      name: "Shopify",
+      slug: "shopify",
     },
     images: {
       thumbnail:
@@ -526,9 +531,9 @@ export const projects: Project[] = [
     },
     images: {
       thumbnail:
-        "/images/projects/gdf/observatorio-familia-juventude/thumb.png",
+        "/images/projects/gdf-obs/thumb.png",
       project:
-        "/images/projects/gdf/observatorio-familia-juventude/project.png",
+        "/images/projects/gdf-obs/project.png",
     },
     stack: ["HTML", "CSS", "JavaScript"],
     featured: false,
@@ -544,8 +549,8 @@ export const projects: Project[] = [
   },
   {
     id: 344421,
-    slug: "GDF foi lá e fez",
-    title: "gdf-faz",
+    slug: "gdf-faz",
+    title: "Campanha - GDF foi lá e faz",
     description: "",
     category: {
       name: "Website",
@@ -553,9 +558,9 @@ export const projects: Project[] = [
     },
     images: {
       thumbnail:
-        "/images/projects/gdf/faz/thumb.png",
+        "/images/projects/gdf-faz/thumb.png",
       project:
-        "/images/projects/gdf/faz/project.png",
+        "/images/projects/gdf-faz/project.png",
     },
     stack: ["HTML", "CSS", "JavaScript"],
     featured: false,
