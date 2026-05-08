@@ -40,6 +40,7 @@ export function Header() {
           className="text-xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50 bg-white dark:bg-zinc-900 p-1 pt-0"
         >
           mg
+          <span className="text-xs text-zinc-500 dark:text-zinc-400 pl-2">WIP</span>
         </Link>
       </FadeIn>
 

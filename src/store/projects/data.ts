@@ -1,37 +1,64 @@
 import type { Project } from "./types";
 
 export const projects: Project[] = [
+  // {
+  //   id: 2938764,
+  //   slug: "camara-dos-deputados",
+  //   title: "Câmara dos Deputados - SEV",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+  //   category: {
+  //     name: "Web Application",
+  //     slug: "web-application",
+  //   },
+  //   images: {
+  //     thumbnail:
+  //       "/images/projects/camara/thumb.png",
+  //     project:
+  //       "/images/projects/camara/project.png",
+  //   },
+  //   stack: ["Vue.JS", "Nuxt.JS", "Vuetify", "Tailwind", "TypeScript"],
+  //   featured: false,
+  //   links: [],
+  //   related: [
+  //     {
+  //       slug: "eleicoes-metropoles",
+  //       title: "Eleições Municipais - Metrópoles",
+  //     },
+  //     {
+  //       slug: "eleicoes-metropoles",
+  //       title: "Eleições Municipais - Metrópoles",
+  //     },
+  //     {
+  //       slug: "eleicoes-metropoles",
+  //       title: "Eleições Municipais - Metrópoles",
+  //     },
+  //   ],
+  //   reactions: {
+  //     liked: 0,
+  //   },
+  // },
   {
-    id: 2938764,
-    slug: "camara-dos-deputados",
-    title: "Câmara dos Deputados - SEV",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
+    id: 12509,
+    slug: "h2bet",
+    title: "H2bet",
+    description: "",
     category: {
       name: "Web Application",
       slug: "web-application",
     },
     images: {
       thumbnail:
-        "/images/projects/camara/thumb.png",
+        "/images/projects/h2bet/thumb.png",
       project:
-        "/images/projects/camara/project.png",
+        "/images/projects/h2bet/project.png",
     },
-    stack: ["React.JS", "Next.JS", "Tailwind"],
+    stack: ["React.JS", "Next.JS", "Tailwind", "TypeScript", "TanStack Query", "React-hook-form", "Zod", "Ant-design"],
     featured: true,
-    links: [],
-    related: [
+    links: [
       {
-        slug: "eleicoes-metropoles",
-        title: "Eleições Municipais - Metrópoles",
-      },
-      {
-        slug: "eleicoes-metropoles",
-        title: "Eleições Municipais - Metrópoles",
-      },
-      {
-        slug: "eleicoes-metropoles",
-        title: "Eleições Municipais - Metrópoles",
+        url: "https://www.h2.bet.br/",
+        name: "open client",
       },
     ],
     reactions: {
@@ -54,7 +81,7 @@ export const projects: Project[] = [
       project:
         "/images/projects/metropoles/project.png",
     },
-    stack: ["React.JS", "Next.JS", "Tailwind"],
+    stack: ["React.JS", "Next.JS", "Tailwind", "SSR"],
     featured: true,
     links: [
       {
@@ -81,6 +108,60 @@ export const projects: Project[] = [
     },
   },
   {
+    id: 87645,
+    title: "Movooh App",
+    slug: "movooh-app",
+    description: "",
+    category: {
+      name: "Web Application",
+      slug: "web-application",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/movooh/thumb.png",
+      project:
+        "/images/projects/movooh/project.png",
+    },
+    stack: ["React.JS", "Next.JS", "Tailwind", "SSR", "TanStack Query"],
+    featured: true,
+    links: [
+      {
+        url: "#this",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 344422,
+    slug: "4u-player",
+    title: "4U Player",
+    description: "",
+    category: {
+      name: "Web Application",
+      slug: "web-application",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/4u-player/thumb.png",
+      project:
+        "/images/projects/4u-player/project.png",
+    },
+    stack: ["React.JS", "Next.JS", "Tailwind"],
+    featured: false,
+    links: [
+      {
+        url: "https://movooh-lp.vercel.app/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
     id: 9823,
     slug: "login-logistica",
     title: "Log-in Logística",
@@ -97,11 +178,11 @@ export const projects: Project[] = [
         "/images/projects/login-logistica/project.png",
     },
     stack: ["React.JS", "Next.JS", "TypeScript", "Styled-Component", "Tailwind"],
-    featured: true,
+    featured: false,
     links: [
       {
         url: "https://www.loginlogistica.com.br/",
-        name: "open project",
+        name: "open client",
       }
     ],
     reactions: {
@@ -129,7 +210,7 @@ export const projects: Project[] = [
     links: [
       {
         url: "https://www.mercadobitcoin.com.br/",
-        name: "open project",
+        name: "open client",
       },
     ],
     reactions: {
@@ -139,7 +220,7 @@ export const projects: Project[] = [
   {
     id: 5236,
     slug: "singulare",
-    title: "Singulare",
+    title: "Singulare | QI Tech",
     description:
       "The Singulare app it's a new product b2b for control ballast check and monitoring invoices connected for national registrars from stock exchange.",
     category: {
@@ -153,8 +234,13 @@ export const projects: Project[] = [
         "/images/projects/singulare/project.png",
     },
     stack: ["React.JS", "Vue.JS", "Vuex", "ApexCharts"],
-    featured: true,
-    links: [],
+    featured: false,
+    links: [
+      {
+        url: "https://qitech.com.br/",
+        name: "open client",
+      },
+    ],
     reactions: {
       liked: 0,
     },
@@ -215,70 +301,6 @@ export const projects: Project[] = [
       liked: 0,
     },
   },
-  {
-    id: 1236,
-    slug: "carro-certo",
-    title: "Carro Certo",
-    description:
-      "The Carro Certo app connects the stock of several used car stores to each other, allowing the entrepreneur to serve his customers even if he does not have the vehicle he is looking for in his stock.",
-    category: {
-      name: "Web Application",
-      slug: "web-application",
-    },
-    images: {
-      thumbnail:
-        "/images/projects/carro-certo/thumb.png",
-      project:
-        "/images/projects/carro-certo/project.png",
-    },
-    stack: ["Vue.JS", "Vuetify", "Firebase"],
-    featured: false,
-    links: [
-      {
-        url: "https://app-carro-certo.web.app/",
-        name: "open web project",
-      },
-      {
-        url: "https://app-avaliacao-certa.web.app/",
-        name: "open mobile project",
-      },
-      {
-        url: "https://www.figma.com/file/1L81WDi1JUGt8b3ETwDETy/Carro-Certo?node-id=2405%3A345&mode=dev",
-        name: "figma prototype",
-      },
-    ],
-    reactions: {
-      liked: 0,
-    },
-  },
-  {
-    id: 1237,
-    slug: "trendt",
-    title: "Trendt",
-    description:
-      "E-commerce for a new custom product clothers made in Shopify plataform.",
-    category: {
-      name: "Shopify",
-      slug: "shopify",
-    },
-    images: {
-      thumbnail:
-        "/images/projects/trendt/thumb.png",
-      project:
-        "/images/projects/trendt/project.png",
-    },
-    stack: ["Gulp", "SASS", "jQuery", "HTML", "Shopify"],
-    featured: false,
-    links: [
-      {
-        url: "https://www.trendt.com.br/",
-        name: "open project",
-      },
-    ],
-    reactions: {
-      liked: 0,
-    },
-  },
   // {
   //   id: 1241,
   //   slug: "grazzis-green-goodies",
@@ -331,162 +353,6 @@ export const projects: Project[] = [
       {
         url: "https://www.figma.com/proto/xoWunvJDHjwrU2pGhqdpW9/Portal-de-Not%C3%ADcias---Ag.-Bras%C3%ADlia?node-id=1%3A2&starting-point-node-id=1%3A2&scaling=scale-down-width",
         name: "figma prototype",
-      },
-    ],
-    reactions: {
-      liked: 0,
-    },
-  },
-  {
-    id: 1238,
-    slug: "kipling",
-    title: "Kipling",
-    description: "",
-    category: {
-      name: "Website",
-      slug: "website",
-    },
-    images: {
-      thumbnail:
-        "/images/projects/kipling/thumb.jpg",
-      project:
-        "/images/projects/kipling/project.png",
-    },
-    stack: ["Gulp", "SASS", "jQuery", "HTML"],
-    featured: false,
-    links: [
-      {
-        url: "https://betainterativa.com/jobs/kipling/",
-        name: "open project",
-      },
-    ],
-    reactions: {
-      liked: 0,
-    },
-  },
-  {
-    id: 1242,
-    slug: "oma",
-    title: "Oma Japanese Food",
-    description: "",
-    category: {
-      name: "Website",
-      slug: "website",
-    },
-    images: {
-      thumbnail:
-        "/images/projects/oma/thumb.png",
-      project:
-        "/images/projects/oma/project.png",
-    },
-    stack: ["Gulp", "SASS", "jQuery", "HTML"],
-    featured: false,
-    links: [],
-    reactions: {
-      liked: 0,
-    },
-  },
-  {
-  	id: 1252,
-  	slug: "jeep",
-  	title: "Jeep Via Motors",
-  	description: "",
-  	category: {
-  		name: "Website",
-  		slug: "website",
-  	},
-  	images: {
-  		thumbnail:
-  			"https://firebasestorage.googleapis.com/v0/b/react-portoflio.appspot.com/o/project%2Fjeep%2Fjeep.png?alt=media&token=4579bc9d-4cd6-4f72-930f-851ee6734d46",
-  		project: "",
-  	},
-  	stack: ["Gulp", "SASS", "jQuery", "HTML"],
-  	featured: false,
-  	links: [
-  		{
-  			url: "http://jeepviamotors.com.br/",
-  			name: "open project",
-  		},
-  	],
-  	reactions: {
-  		liked: 0,
-  	},
-  },
-  {
-    id: 12509,
-    slug: "h2bet",
-    title: "H2bet",
-    description: "",
-    category: {
-      name: "Web Application",
-      slug: "web-application",
-    },
-    images: {
-      thumbnail:
-        "/images/projects/h2bet/thumb.png",
-      project:
-        "/images/projects/h2bet/project.png",
-    },
-    stack: ["React.JS", "Next.JS", "Tailwind"],
-    featured: true,
-    links: [
-      {
-        url: "https://www.h2.bet.br/",
-        name: "open project",
-      },
-    ],
-    reactions: {
-      liked: 0,
-    },
-  },
-  {
-    id: 87645,
-    slug: "Movooh App",
-    title: "Movooh App",
-    description: "",
-    category: {
-      name: "Web Application",
-      slug: "web-application",
-    },
-    images: {
-      thumbnail:
-        "/images/projects/movooh/thumb.png",
-      project:
-        "/images/projects/movooh/project.png",
-    },
-    stack: ["React.JS", "Next.JS", "Tailwind"],
-    featured: true,
-    links: [
-      {
-        url: "#this",
-        name: "open project",
-      },
-    ],
-    reactions: {
-      liked: 0,
-    },
-  },
-  {
-    id: 349028,
-    slug: "caixa",
-    title: "Caixa Seguradora",
-    description: "",
-    category: {
-      name: "Website",
-      slug: "website",
-    },
-    images: {
-      thumbnail:
-        "/images/projects/caixa/thumb.png",
-      project:
-        "/images/projects/caixa/project.png",
-    },
-    stack: ["HTML", "CSS", "JavaScript"],
-    featured: false,
-    links: [
-      {
-        url: "https://www.caixaseguradora.com.br/",
-        name: "open project",
       },
     ],
     reactions: {
@@ -575,9 +441,36 @@ export const projects: Project[] = [
     },
   },
   {
-    id: 344422,
-    slug: "4u-player",
-    title: "4U Player",
+    id: 982463,
+    slug: "asa-digital",
+    title: "ASA Digital",
+    description: "",
+    category: {
+      name: "Website",
+      slug: "website",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/asa-digital/thumb.png",
+      project:
+        "/images/projects/asa-digital/project.png",
+    },
+    stack: ["HTML", "CSS", "JavaScript"],
+    featured: false,
+    links: [
+      {
+        url: "https://asadigital.vercel.app/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 982763,
+    slug: "revista-oeste",
+    title: "Eleições Municipais - Revista Oeste",
     description: "",
     category: {
       name: "Web Application",
@@ -585,15 +478,208 @@ export const projects: Project[] = [
     },
     images: {
       thumbnail:
-        "/images/projects/4u-player/thumb.png",
+        "/images/projects/revista-oeste/thumb.png",
       project:
-        "/images/projects/4u-player/project.png",
+        "/images/projects/revista-oeste/project.png",
     },
-    stack: ["React.JS", "Next.JS", "Tailwind"],
+    stack: ["Vue.JS", "Vuex", "Tailwind", "TypeScript"],
     featured: false,
     links: [
       {
-        url: "https://www.4uplayer.com.br/",
+        url: "https://revistaoeste.com/",
+        name: "open client",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 1236,
+    slug: "carro-certo",
+    title: "Carro Certo",
+    description:
+      "The Carro Certo app connects the stock of several used car stores to each other, allowing the entrepreneur to serve his customers even if he does not have the vehicle he is looking for in his stock.",
+    category: {
+      name: "Web Application",
+      slug: "web-application",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/carro-certo/thumb.png",
+      project:
+        "/images/projects/carro-certo/project.png",
+    },
+    stack: ["Vue.JS", "Vuetify", "Firebase"],
+    featured: false,
+    links: [
+      {
+        url: "https://app-carro-certo.web.app/",
+        name: "open web project",
+      },
+      {
+        url: "https://app-avaliacao-certa.web.app/",
+        name: "open mobile project",
+      },
+      {
+        url: "https://www.figma.com/file/1L81WDi1JUGt8b3ETwDETy/Carro-Certo?node-id=2405%3A345&mode=dev",
+        name: "figma prototype",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 1237,
+    slug: "trendt",
+    title: "Trendt",
+    description:
+      "E-commerce for a new custom product clothers made in Shopify plataform.",
+    category: {
+      name: "Shopify",
+      slug: "shopify",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/trendt/thumb.png",
+      project:
+        "/images/projects/trendt/project.png",
+    },
+    stack: ["Gulp", "SASS", "jQuery", "HTML", "Shopify"],
+    featured: false,
+    links: [
+      {
+        url: "https://www.trendt.com.br/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 344422,
+    slug: "correios",
+    title: "Correios",
+    description: "",
+    category: {
+      name: "Website",
+      slug: "website",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/correios/thumb.png",
+      project:
+        "/images/projects/correios/project.png",
+    },
+    stack: ["HTML", "CSS", "JavaScript"],
+    featured: false,
+    links: [
+      {
+        url: "https://www.correios.com.br/",
+        name: "open client",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 1238,
+    slug: "kipling",
+    title: "Kipling",
+    description: "",
+    category: {
+      name: "Website",
+      slug: "website",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/kipling/thumb.jpg",
+      project:
+        "/images/projects/kipling/project.png",
+    },
+    stack: ["Gulp", "SASS", "jQuery", "HTML"],
+    featured: false,
+    links: [
+      {
+        url: "https://betainterativa.com/jobs/kipling/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 1242,
+    slug: "oma",
+    title: "Oma Japanese Food",
+    description: "",
+    category: {
+      name: "Website",
+      slug: "website",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/oma/thumb.png",
+      project:
+        "/images/projects/oma/project.png",
+    },
+    stack: ["Gulp", "SASS", "jQuery", "HTML"],
+    featured: false,
+    links: [],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+  	id: 1252,
+  	slug: "jeep",
+  	title: "Jeep Via Motors",
+  	description: "",
+  	category: {
+  		name: "Website",
+  		slug: "website",
+  	},
+  	images: {
+  		thumbnail:
+  			"https://firebasestorage.googleapis.com/v0/b/react-portoflio.appspot.com/o/project%2Fjeep%2Fjeep.png?alt=media&token=4579bc9d-4cd6-4f72-930f-851ee6734d46",
+  		project: "",
+  	},
+  	stack: ["Gulp", "SASS", "jQuery", "HTML"],
+  	featured: false,
+  	links: [
+  		{
+  			url: "http://jeepviamotors.com.br/",
+  			name: "open project",
+  		},
+  	],
+  	reactions: {
+  		liked: 0,
+  	},
+  },
+  {
+    id: 349028,
+    slug: "caixa",
+    title: "Caixa Seguradora",
+    description: "",
+    category: {
+      name: "Website",
+      slug: "website",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/caixa/thumb.png",
+      project:
+        "/images/projects/caixa/project.png",
+    },
+    stack: ["HTML", "CSS", "JavaScript"],
+    featured: false,
+    links: [
+      {
+        url: "https://www.caixaseguradora.com.br/",
         name: "open project",
       },
     ],

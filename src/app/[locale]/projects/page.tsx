@@ -44,7 +44,7 @@ export default function ProjectsPage() {
         <div className="flex flex-col gap-x-8 space-y-20 sm:grid sm:grid-cols-2 lg:grid-cols-3">
           {
             projects.map((project, idx) => (
-              <article key={project.id} className="project">
+              <article key={project.slug} className="project">
                 <div className="text-3xl font-semibold md:pr-4 dark:text-[#f1f1f1]">
                   <FadeIn intersect delay={idx * 100 + 200}>
                     <Link href={`/projects/${project.slug}`}>
