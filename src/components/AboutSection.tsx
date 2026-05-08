@@ -274,7 +274,7 @@ export function AboutSection() {
           </FadeIn>
 
           {/* Resume */}
-          <FadeIn intersect>
+          {/* <FadeIn intersect>
             <p className="mb-4">
               <Link
                 href={t("about.resume.url")}
@@ -285,7 +285,7 @@ export function AboutSection() {
                 {t("about.resume.button")}
               </Link>
             </p>
-          </FadeIn>
+          </FadeIn> */}
         </div>
       </div>
     </section>
