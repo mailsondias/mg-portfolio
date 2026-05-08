@@ -104,15 +104,15 @@ export function AboutSection() {
       },
       description: t("about.experience.morfeu.description"),
     },
-    {
-      role: "Senior/Master Front-end",
-      company: t("about.experience.camara.company"),
-      period: {
-        start: "06.2024",
-        end: "current",
-      },
-      description: t("about.experience.camara.description"),
-    },
+    // {
+    //   role: "Senior/Master Front-end",
+    //   company: t("about.experience.camara.company"),
+    //   period: {
+    //     start: "06.2024",
+    //     end: "current",
+    //   },
+    //   description: t("about.experience.camara.description"),
+    // },
     {
       role: "Senior Front-end",
       company: "Mercado Bitcoin - Bycoders",
