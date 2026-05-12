@@ -24,7 +24,7 @@ export default function FeaturedProjects() {
         <div className="mt-10 space-y-10">
           {featured.map((project) => (
             <div key={project.id}>
-              <article className="project mb-10 md:flex md:flex-row md:w-full md:h-[400px] md:justify-between lg:h-[600px]">
+              <article className="project mb-10 md:flex md:flex-row md:w-full md:h-[500px] md:justify-between lg:h-[700px]">
                 <div className="text-3xl font-semibold max-w-[320px] md:w-1/2 md:pr-4 dark:text-[#f1f1f1]">
                   <FadeIn intersect>
                     <Link href={`/projects/${project.slug}`}>

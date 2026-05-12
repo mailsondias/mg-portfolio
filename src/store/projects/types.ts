@@ -10,7 +10,7 @@ export type ProjectCategory = {
 
 export type ProjectImages = {
   thumbnail: string;
-  project: string;
+  project: string[];
 };
 
 export type ProjectRelated = {

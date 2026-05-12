@@ -40,6 +40,37 @@ export const projects: Project[] = [
   // },
   {
     id: 12509,
+    slug: "ibaneis",
+    title: "Ibaneis",
+    description: "",
+    category: {
+      name: "Web Application",
+      slug: "web-application",
+    },
+    images: {
+      thumbnail:
+        "/images/projects/ibaneis/thumb.png",
+      project: [
+        "/images/projects/ibaneis/project-1.png",
+        "/images/projects/ibaneis/project-2.png",
+        "/images/projects/ibaneis/project-3.png",
+        "/images/projects/ibaneis/project-4.png",
+      ],
+    },
+    stack: ["React.JS", "Next.JS", "Tailwind", "TypeScript", "SSR", "WordPress", "CMS Headless"],
+    featured: false,
+    links: [
+      {
+        url: "https://ibaneis-rocha.vercel.app/",
+        name: "open project",
+      },
+    ],
+    reactions: {
+      liked: 0,
+    },
+  },
+  {
+    id: 12509,
     slug: "h2bet",
     title: "H2bet",
     description: "",
@@ -50,8 +81,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/h2bet/thumb.png",
-      project:
-        "/images/projects/h2bet/project.png",
+        project: [
+          "/images/projects/h2bet/project.png",
+        ],
     },
     stack: ["React.JS", "Next.JS", "Tailwind", "TypeScript", "TanStack Query", "React-hook-form", "Zod", "Ant-design"],
     featured: true,
@@ -78,8 +110,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/metropoles/thumb.png",
-      project:
+      project: [
         "/images/projects/metropoles/project.png",
+      ],
     },
     stack: ["React.JS", "Next.JS", "Tailwind", "SSR"],
     featured: true,
@@ -119,8 +152,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/movooh/thumb.png",
-      project:
+      project: [
         "/images/projects/movooh/project.png",
+      ],
     },
     stack: ["React.JS", "Next.JS", "Tailwind", "SSR", "TanStack Query"],
     featured: true,
@@ -146,8 +180,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/4u-player/thumb.png",
-      project:
+      project: [
         "/images/projects/4u-player/project.png",
+      ],
     },
     stack: ["React.JS", "Next.JS", "Tailwind"],
     featured: false,
@@ -174,8 +209,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/login-logistica/thumb.png",
-      project:
+      project: [
         "/images/projects/login-logistica/project.png",
+      ],
     },
     stack: ["React.JS", "Next.JS", "TypeScript", "Styled-Component", "Tailwind"],
     featured: false,
@@ -202,8 +238,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/mercado-bitcoin/thumb.png",
-      project:
+      project: [
         "/images/projects/mercado-bitcoin/project.png",
+      ],
     },
     stack: ["Vue.JS", "Composition API", "Script Setup", "Node", "Cypress"],
     featured: true,
@@ -230,8 +267,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/singulare/thumb.jpeg",
-      project:
+      project: [
         "/images/projects/singulare/project.png",
+      ],
     },
     stack: ["React.JS", "Vue.JS", "Vuex", "ApexCharts"],
     featured: false,
@@ -258,8 +296,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/fatal-model/thumb.png",
-      project:
+      project: [
         "/images/projects/fatal-model/project.png",
+      ],
     },
     stack: ["Vue.JS", "Nuxt.JS", "TypeScript", "Tailwind", "Jest", "Storybook"],
     featured: false,
@@ -286,8 +325,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/aifs/thumb.png",
-      project:
+      project: [
         "/images/projects/aifs/project.png",
+      ],
     },
     stack: ["Gulp", "jQuery", "SASS", "HTML"],
     featured: false,
@@ -340,8 +380,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/agencia-brasilia/thumb.png",
-      project:
+      project: [
         "/images/projects/agencia-brasilia/project.png",
+      ],
     },
     stack: ["Gulp", "SASS", "jQuery", "HTML", "WordPress", "PHP"],
     featured: false,
@@ -371,8 +412,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/gama/thumb.png",
-      project:
+      project: [
         "/images/projects/gama/project.png",
+      ],
     },
     stack: ["HTML", "CSS", "JavaScript", "Shopify"],
     featured: false,
@@ -398,8 +440,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/gdf-obs/thumb.png",
-      project:
+      project: [
         "/images/projects/gdf-obs/project.png",
+      ],
     },
     stack: ["HTML", "CSS", "JavaScript"],
     featured: false,
@@ -425,8 +468,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/gdf-faz/thumb.png",
-      project:
+      project: [
         "/images/projects/gdf-faz/project.png",
+      ],
     },
     stack: ["HTML", "CSS", "JavaScript"],
     featured: false,
@@ -452,8 +496,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/asa-digital/thumb.png",
-      project:
+      project: [
         "/images/projects/asa-digital/project.png",
+      ],
     },
     stack: ["HTML", "CSS", "JavaScript"],
     featured: false,
@@ -479,8 +524,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/revista-oeste/thumb.png",
-      project:
+      project: [
         "/images/projects/revista-oeste/project.png",
+      ],
     },
     stack: ["Vue.JS", "Vuex", "Tailwind", "TypeScript"],
     featured: false,
@@ -507,8 +553,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/carro-certo/thumb.png",
-      project:
+      project: [
         "/images/projects/carro-certo/project.png",
+      ],
     },
     stack: ["Vue.JS", "Vuetify", "Firebase"],
     featured: false,
@@ -543,8 +590,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/trendt/thumb.png",
-      project:
+      project: [
         "/images/projects/trendt/project.png",
+      ],
     },
     stack: ["Gulp", "SASS", "jQuery", "HTML", "Shopify"],
     featured: false,
@@ -570,8 +618,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/correios/thumb.png",
-      project:
+      project: [
         "/images/projects/correios/project.png",
+      ],
     },
     stack: ["HTML", "CSS", "JavaScript"],
     featured: false,
@@ -597,8 +646,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/kipling/thumb.jpg",
-      project:
+      project: [
         "/images/projects/kipling/project.png",
+      ],
     },
     stack: ["Gulp", "SASS", "jQuery", "HTML"],
     featured: false,
@@ -624,8 +674,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/oma/thumb.png",
-      project:
+      project: [
         "/images/projects/oma/project.png",
+      ],
     },
     stack: ["Gulp", "SASS", "jQuery", "HTML"],
     featured: false,
@@ -646,7 +697,7 @@ export const projects: Project[] = [
   	images: {
   		thumbnail:
   			"https://firebasestorage.googleapis.com/v0/b/react-portoflio.appspot.com/o/project%2Fjeep%2Fjeep.png?alt=media&token=4579bc9d-4cd6-4f72-930f-851ee6734d46",
-  		project: "",
+  		project: [""],
   	},
   	stack: ["Gulp", "SASS", "jQuery", "HTML"],
   	featured: false,
@@ -672,8 +723,9 @@ export const projects: Project[] = [
     images: {
       thumbnail:
         "/images/projects/caixa/thumb.png",
-      project:
+      project: [
         "/images/projects/caixa/project.png",
+      ],
     },
     stack: ["HTML", "CSS", "JavaScript"],
     featured: false,

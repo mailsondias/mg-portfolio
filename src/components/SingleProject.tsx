@@ -92,9 +92,11 @@ export default function SingleProject({ project }: Props) {
           <div className="project mb-10 flex flex-col w-full h-full md:justify-between">
             <FadeIn
               delay={tProject("title").length * 40 + 800}
-              className="overflow-hidden w-full h-full p-2 md:justify-end dark:bg-slate-600"
+              className="overflow-hidden w-full h-full p-2 md:justify-end dark:bg-slate-600 flex flex-col gap-4"
             >
-              <Image src={project.images.project} alt={project.title} width={900} height={600} className="w-full" />
+              {project.images.project.map((image) => (
+                <Image key={image} src={image} alt={project.title} width={900} height={600} className="w-full" />
+              ))}
             </FadeIn>
             <FadeIn
               delay={tProject("title").length * 40 + 1000}

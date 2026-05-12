@@ -120,6 +120,10 @@
 		"aifs": {
 			"title": "Australian Institute of Families Study",
 			"description": "Portal Oficial do Governo da Austrália. Fornece pesquisas para informar políticas governamentais e serviços familiares. O governo compartilha suas novidades em uma postagem de blog com diversos conteúdos específicos, ajudando e cuidando de seu povo."
+		},
+		"ibaneis": {
+			"title": "Ibaneis",
+			"description": "Portal developed for Governor Ibaneis of the Federal District, for the pre-launch of his Senate candidacy. A news portal was built with a WordPress backend and a Next.JS frontend, consuming the API via WordPress Headless CMS for displaying news and other customized content. The content is rendered via SSR and hydrated on the client side, ensuring better performance. Integration with Instagram and YouTube APIs allows the display of videos and posts from social networks."
 		}
 	}
 }
