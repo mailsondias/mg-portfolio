@@ -428,7 +428,9 @@ export const projects: Project[] = [
       thumbnail:
         "/images/projects/gama/thumb.png",
       project: [
-        "/images/projects/gama/project.png",
+        "/images/projects/gama/project-1.png",
+        "/images/projects/gama/project-2.png",
+        "/images/projects/gama/project-3.png",
       ],
     },
     stack: ["HTML", "CSS", "JavaScript", "Shopify"],
