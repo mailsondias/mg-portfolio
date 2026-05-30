@@ -107,7 +107,7 @@
 		},
 		"fatal-model": {
 			"title": "Fatal Model",
-			"description": "Fatal Model é o maior produto do seu nicho do Brasil tendo meio bilhão de acessos por mês. Uma empresa muito educada, que respeita as diferenças e abre oportunidades para todos. Este produto fornece anúncios que ajudam os anunciantes a se conectarem com mais clientes seguindo as leis brasileiras."
+			"description": "Fatal Model é o maior produto do seu nicho do Brasil tendo meio bilhão de acessos por mês. Uma empresa polida no respeito respeitando as diferenças para abrir oportunidades para seus anunciantes. Este produto fornece propaganda que ajudam os anunciantes a se conectarem com mais clientes seguindo as leis brasileiras como prerrogativas."
 		},
 		"carro-certo": {
 			"title": "Carro Certo",
@@ -127,11 +127,31 @@
 		},
 		"ibaneis": {
 			"title": "Ibaneis",
-			"description": "Portal desenvolvido para o ex-governador Ibaneis do DF para pré-lançamento de sua candidatura ao Senado. Foi desenvolvido portal de notícias com o backend em WordPress e o frontend em Next.JS consumindo a API via CMS Headless do WordPress para exibição de notícias e demais conteúdos customizados. O conteúdo é renderizado via SSR e a hidratação dos dados via cliente. Integração com API do Instagram, Youtube e Flickr para exibição de vídeos, fotos e posts na rede-social.Portal desenvolvido para o governador Ibaneis do DF, para pré-lançamento de sua candidatura ao Senado. Foi desenvolvido portal de notícias com o backend em WordPress e o frontend em Next.JS consumindo a API via CMS Headless para exibição de notícias e demais conteúdos customizados. O conteúdo é renderizado via SSR e a hidratação dos dados via cliente, garantindo performance e usabilidade do usuário. Integração com API do Instagram, Youtube e Flickr para exibição de vídeos, fotos e posts na rede-social."
+			"description": "Portal desenvolvido para o ex-governador Ibaneis do DF para pré-lançamento de sua candidatura ao Senado. Foi desenvolvido portal de notícias com o backend em WordPress e o frontend em Next.JS consumindo a API via CMS Headless do WordPress para exibição de notícias e demais conteúdos customizados. O conteúdo é renderizado via SSR e a hidratação dos dados via cliente. Integração com API do Youtube e Flickr para exibição de vídeos e fotos da rede-social."
 		},
 		"h2bet": {
 			"title": "H2bet",
 			"description": "Aplicação desenvolvida para a plataforma H2bet, uma plataforma para apostar em bets e eventos esportivos. Participei no desenvolvimento do produto white label e desenvolvimento e implementação de uma plataforma que gerencia as empresas white labels de cada casa de apostas."
+		},
+		"movooh-app": {
+			"title": "Movooh App",
+			"description": "Desenvolvido a LP do Movooh App e uma plataforma administrativa para gerenciar e monitorar os leads, as campanhas e demais informações e utilidades da aplicação."
+		},
+		"4u-player": {
+			"title": "4U Player",
+			"description": "Aplicação desenvolvida para os fãs de gamers. Uma rede social para gamers compartilharem seus vídeos, prêmios e conteúdos relacionados aos games."
+		},
+		"singulare": {
+			"title": "Singulare",
+			"description": "Aplicação desenvolvida para o produto Singulare, um novo produto B2B para controle de lastros e monitoramento de duplicatas conectado aos registradores nacionais da bolsa de valores."
+		},
+		"gama-oficial": {
+			"title": "Gama Oficial",
+			"description": "LOREM"
+		},
+		"gdf-obs": {
+			"title": "Observatório da Família e Juventude",
+			"description": "LOREM"
 		}
 	}
 }

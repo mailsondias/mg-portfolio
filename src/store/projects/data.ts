@@ -117,7 +117,9 @@ export const projects: Project[] = [
       thumbnail:
         "/images/projects/metropoles/thumb.png",
       project: [
-        "/images/projects/metropoles/project.png",
+        "/images/projects/metropoles/project-1.png",
+        "/images/projects/metropoles/project-2.png",
+        "/images/projects/metropoles/project-3.png",
       ],
     },
     stack: ["React.JS", "Next.JS", "Tailwind", "SSR"],
@@ -150,23 +152,27 @@ export const projects: Project[] = [
     id: 87645,
     title: "Movooh App",
     slug: "movooh-app",
-    description: "",
+    description: "Developed the LP of the Movooh App and an administrative platform to manage and monitor leads, campaigns and other information and utilities of the application.",
     category: {
       name: "Web Application",
       slug: "web-application",
     },
     images: {
       thumbnail:
-        "/images/projects/movooh/thumb.png",
+        "/images/projects/movooh-app/thumb.png",
       project: [
-        "/images/projects/movooh/project.png",
+        "/images/projects/movooh-app/project-1.png",
+        "/images/projects/movooh-app/project-2.png",
+        "/images/projects/movooh-app/project-3.png",
+        "/images/projects/movooh-app/project-4.png",
+        "/images/projects/movooh-app/project-5.png",
       ],
     },
     stack: ["React.JS", "Next.JS", "Tailwind", "SSR", "TanStack Query"],
     featured: true,
     links: [
       {
-        url: "#this",
+        url: "https://movooh-lp.vercel.app/",
         name: "open project",
       },
     ],
@@ -178,7 +184,7 @@ export const projects: Project[] = [
     id: 344422,
     slug: "4u-player",
     title: "4U Player",
-    description: "",
+    description: "Application developed for the fans of gamers. A social network for gamers to share their videos, prizes and contents related to games.",
     category: {
       name: "Web Application",
       slug: "web-application",
@@ -187,14 +193,17 @@ export const projects: Project[] = [
       thumbnail:
         "/images/projects/4u-player/thumb.png",
       project: [
-        "/images/projects/4u-player/project.png",
+        "/images/projects/4u-player/project-1.png",
+        "/images/projects/4u-player/project-2.png",
+        "/images/projects/4u-player/project-3.png",
+        "/images/projects/4u-player/project-4.png",
       ],
     },
-    stack: ["React.JS", "Next.JS", "Tailwind"],
+    stack: ["React.JS", "Next.JS", "Tailwind", "SSR"],
     featured: false,
     links: [
       {
-        url: "https://movooh-lp.vercel.app/",
+        url: "https://4uplayer.com/",
         name: "open project",
       },
     ],
@@ -263,9 +272,9 @@ export const projects: Project[] = [
   {
     id: 5236,
     slug: "singulare",
-    title: "Singulare | QI Tech",
+    title: "Singulare",
     description:
-      "The Singulare app it's a new product b2b for control ballast check and monitoring invoices connected for national registrars from stock exchange.",
+      "Aplicação desenvolvida para o produto Singulare, um novo produto B2B para controle de lastros e monitoramento de duplicatas conectado aos registradores nacionais da bolsa de valores.",
     category: {
       name: "Web Application",
       slug: "web-application",

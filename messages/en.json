@@ -103,7 +103,7 @@
 		},
 		"fatal-model": {
 			"title": "Fatal Model",
-			"description": "Fatal Model é o maior produto do seu nicho do Brasil tendo meio bilhão de acessos por mês. Uma empresa muito educada, que respeita as diferenças e abre oportunidades para todos. Este produto fornece anúncios que ajudam os anunciantes a se conectarem com mais clientes seguindo as leis brasileiras."
+			"description": "Fatal Model is the largest product in its niche in Brazil, with half a billion visits per month. It is a company committed to respect and inclusivity, creating opportunities for all advertisers. This product provides advertising solutions that help advertisers connect with more clients, following Brazilian legal guidelines."
 		},
 		"carro-certo": {
 			"title": "Carro Certo",
@@ -128,6 +128,26 @@
 		"h2bet": {
 			"title": "H2bet",
 			"description": "Application developed for the H2bet platform, a platform for bets and sports events. I participated in the development of the white label product and development and implementation a platform that manage the companies white labels of each bookmaker."
+		},
+		"movooh-app": {
+			"title": "Movooh App",
+			"description": "Developed the LP of the Movooh App and an administrative platform to manage and monitor leads, campaigns and other information and utilities of the application."
+		},
+		"4u-player": {
+			"title": "4U Player",
+			"description": "Application developed for the fans of gamers. A social network for gamers to share their videos, prizes and contents related to games."
+		},
+		"singulare": {
+			"title": "Singulare",
+			"description": "Application developed for the Singulare product, a new B2B product for ballast check and monitoring invoices connected to national registrars from stock exchange."
+		},
+		"gama-oficial": {
+			"title": "Gama Oficial",
+			"description": "LOREM"
+		},
+		"gdf-obs": {
+			"title": "Observatório da Família e Juventude",
+			"description": "LOREM"
 		}
 	}
 }
