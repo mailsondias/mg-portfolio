@@ -123,7 +123,11 @@
 		},
 		"ibaneis": {
 			"title": "Ibaneis",
-			"description": "Portal developed for Governor Ibaneis of the Federal District, for the pre-launch of his Senate candidacy. A news portal was built with a WordPress backend and a Next.JS frontend, consuming the API via WordPress Headless CMS for displaying news and other customized content. The content is rendered via SSR and hydrated on the client side, ensuring better performance. Integration with Instagram and YouTube APIs allows the display of videos and posts from social networks."
+			"description": "Portal developed for Governor Ibaneis of the Federal District, for the pre-launch of his Senate candidacy. A news portal was built with a WordPress backend and a Next.JS frontend, consuming the API via WordPress Headless CMS for displaying news and other customized content. The content is rendered via SSR and hydrated on the client side. Integration with Instagram and YouTube APIs allows the display of videos and posts from social networks."
+		},
+		"h2bet": {
+			"title": "H2bet",
+			"description": "Application developed for the H2bet platform, a platform for bets and sports events. I participated in the development of the white label product and development and implementation a platform that manage the companies white labels of each bookmaker."
 		}
 	}
 }

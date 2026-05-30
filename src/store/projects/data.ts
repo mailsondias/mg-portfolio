@@ -42,7 +42,7 @@ export const projects: Project[] = [
     id: 12509,
     slug: "ibaneis",
     title: "Ibaneis",
-    description: "",
+    description: "Portal desenvolvido para o governador Ibaneis do DF, para pré-lançamento de sua candidatura ao Senado. Foi desenvolvido portal de notícias com o backend em WordPress e o frontend em Next.JS consumindo a API via CMS Headless para exibição de notícias e demais conteúdos customizados. O conteúdo é renderizado via SSR e a hidratação dos dados via cliente, garantindo performance e usabilidade do usuário. Integração com API do Instagram, Youtube e Flickr para exibição de vídeos, fotos e posts na rede-social.",
     category: {
       name: "Web Application",
       slug: "web-application",
@@ -73,7 +73,7 @@ export const projects: Project[] = [
     id: 12509,
     slug: "h2bet",
     title: "H2bet",
-    description: "",
+    description: "Application developed for the H2bet platform, a platform for betting on sports events. I participated in the development of the white label product and development and implementation a platform that manage white labels of each bookmaker.",
     category: {
       name: "Web Application",
       slug: "web-application",
@@ -82,7 +82,13 @@ export const projects: Project[] = [
       thumbnail:
         "/images/projects/h2bet/thumb.png",
         project: [
-          "/images/projects/h2bet/project.png",
+          "/images/projects/h2bet/project-1.png",
+          "/images/projects/h2bet/project-2.png",
+          "/images/projects/h2bet/project-3.png",
+          "/images/projects/h2bet/project-4.png",
+          "/images/projects/h2bet/project-5.png",
+          "/images/projects/h2bet/project-6.png",
+          "/images/projects/h2bet/project-7.png",
         ],
     },
     stack: ["React.JS", "Next.JS", "Tailwind", "TypeScript", "TanStack Query", "React-hook-form", "Zod", "Ant-design"],
